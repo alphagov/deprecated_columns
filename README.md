@@ -10,7 +10,7 @@ modifications.
 
 Add this line to your application's Gemfile:
 
-```ruby gem 'deprecated_columns' ```
+```gem 'deprecated_columns'```
 
 And then execute:
 
@@ -35,7 +35,7 @@ macro.
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
-https://github.com/[USERNAME]/deprecated_columns. This project is intended to
+https://github.com/alphagov/deprecated_columns. This project is intended to
 be a safe, welcoming space for collaboration, and contributors are expected to
 adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
