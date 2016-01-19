@@ -14,15 +14,15 @@ module DeprecatedColumns
       end
 
       self.deprecated_column_list += names.map(&:to_s)
+    end
 
-      class_eval do
-        def attribute_names
-          super.reject { |name| deprecated_column_list.include?(name) }
-        end
+    class_eval do
+      def attribute_names
+        super.reject { |name| deprecated_column_list.include?(name) }
+      end
 
-        def columns
-          super.reject { |column| deprecated_column_list.include?(column.name) }
-        end
+      def columns
+        super.reject { |column| deprecated_column_list.include?(column.name) }
       end
     end
   end
