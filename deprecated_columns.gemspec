@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Active Record compliant column/attribute deprecator}
   spec.description   = %q{Mark column(s) for deprecation to permit subtractive schema changes in production.}
-  spec.homepage      = "https://www.gov.uk/"
+  spec.homepage      = "https://github.com/alphagov/deprecated_columns"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
