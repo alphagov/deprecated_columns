@@ -1,3 +1,7 @@
+# DEPRECATED
+
+NOTE: This repository and Gem has been deprecated and is no longer supported. This gem was only pulled in by Signon and link-checker-api but not used. Dependency in those apps for this this gem has been removed.
+
 # DeprecatedColumns
 
 Permits a grace period for substractive column changes, via Active Record
